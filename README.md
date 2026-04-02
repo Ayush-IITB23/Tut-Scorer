@@ -162,6 +162,7 @@ The script prints each feature's learned coefficient sorted by value & also the 
 ### 4.6 Ranking & Top 10
 
 The trained model predicts a quality score for every tutorial in the full dataset. Scores are clipped to `[0, 100]` to handle any out-of-range predictions. Tutorials are then sorted in descending order and the top 10 are printed with their title, view count, predicted score, and actual score for comparison.
-
+print(lauda);
 ---
+
 
